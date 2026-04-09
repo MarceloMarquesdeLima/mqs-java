@@ -1,5 +1,3 @@
 package com.mqsdocker.mqs.repository;
 
-public class ClienteRepository {
-    
-}
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {}
